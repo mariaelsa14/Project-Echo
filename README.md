@@ -67,6 +67,7 @@ Your file is split into 11 windows of 5 seconds width per window. For each slidi
     A skylark with a confidence of 92.64%
     A white-plumed honeyeater with a confidence of 62.92%
 ```
+for animal prediction, Check out this [animal prediction](https://github.com/mariaelsa14/animal-predicton) for more details.
 
 > Please note: In some cases, splitting audio files into 5-second windows may not yield even segments. To address this, we use an audio padding technique, adding silence to the last window. This may affect the accuracy of predictions for the last window. Hence, we advise disregarding predictions for the last window until this issue is resolved. As shown in the example above, the prediction for the last window incorrectly identifies a white-plumed honeyeater with a confidence of 62.92% instead of a skylark.
 
